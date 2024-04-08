@@ -1,1 +1,1 @@
-prompt("Are you ready to see more?");
+alert("Are you ready to see more?");
