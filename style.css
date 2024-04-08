@@ -8,6 +8,7 @@ h2 {
 
 .button-container {
   text-align: center;
+  display: flex;
 }
 #yesButton,
 #noButton {
@@ -15,11 +16,25 @@ h2 {
 }
 
 #yesButton {
-  background-color: green;
-  color: white;
+  color: #35970f;
+  display: block;
+  font-size: large;
+  margin: 15px auto 0 auto;
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: 0px 4px 5px 0px;
+  cursor: pointer;
 }
 
 #noButton {
-  background-color: orange;
-  color: white;
+  color: #cf2626;
+  display: block;
+  font-size: large;
+  margin: 15px auto 0 auto;
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: 0px 4px 5px 0px;
+  cursor: pointer;
 }
